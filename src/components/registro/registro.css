@@ -1,0 +1,90 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightcyan;
+}
+
+.containerRegistro {
+  width: 50em;
+  height: 30em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 15px;
+}
+
+.registroForm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.registroWelcome {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(25, 4, 100);
+  border-radius: 10px;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+  color: white;
+}
+
+.registroFormInput {
+  border-style: none;
+  width: 270px;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 15px;
+  background: whitesmoke;
+}
+
+.registroTitle {
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.registroFormButton {
+  width: 150px;
+  height: 40px;
+  background: rgb(25, 4, 100);
+  color: white;
+  font-size: 20px;
+  border-style: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.registroWelcomeButton {
+  width: 150px;
+  height: 40px;
+  background: none;
+  color: white;
+  font-size: 20px;
+  border-color: white;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.registroWelcomeButton:hover {
+  cursor: pointer;
+  border-color: brown;
+}
+
+.registroFormButton:hover {
+  cursor: pointer;
+}
